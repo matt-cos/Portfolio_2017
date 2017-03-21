@@ -1,0 +1,71 @@
+/*
+Theme Name: Matt Portfolio
+Description:  Custom Child Theme of twentysixteen
+Author URI: http://mcosentino.com
+Template: twentysixteen
+Version: 1.0
+*/
+
+
+body {
+    background: transparent;
+}
+p,
+div,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 100;
+	color: #000;
+}
+a:hover, 
+a:focus, 
+a:active {
+	color: inherit;
+}
+
+.site-content {
+/*
+	-ms-transform: rotate(-3deg);
+	-webkit-transform: rotate(-3deg);
+	transform: rotate(-3deg);
+*/
+}
+.portfolio-item {
+/*
+	display: inline-block;
+	position: relative;
+	width: 31%;
+	margin: 1%;
+*/
+}
+.portfolio-item img {
+	display: none;
+	position: fixed;
+	top: 0;
+	left: 60%;
+	width: auto;
+	height: 100%;
+	z-index: 1;
+	filter: saturate(40%);
+	pointer-events: none;
+	/*
+	position: absolute;
+	top: 430px;
+	transform: translateY(-50%);
+	right: 0;
+	max-width: 300px;
+	*/
+}
+.portfolio-item .title {
+	position: relative;
+	font-size: 35px;
+	transition: 0.3s all;
+	-webkit-transition: 0.3s all;
+	z-index: 2;
+}
