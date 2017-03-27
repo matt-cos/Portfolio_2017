@@ -25,7 +25,7 @@
 		<?php
 		endif; ?>
 	</header><!-- .entry-header -->
-
+	
 	<div class="entry-content">
 		<?php
 			the_content( sprintf(
@@ -39,9 +39,12 @@
 				'after'  => '</div>',
 			) );
 		?>
-	</div><!-- .entry-content -->
+	</div>
+
+
+	<!-- .entry-content -->
 
 	<footer class="entry-footer">
-		<?php matt_portfolio_entry_footer(); ?>
+		<!-- <?php /* matt_portfolio_entry_footer(); */ ?> -->
 	</footer><!-- .entry-footer -->
 </article><!-- #post-## -->
